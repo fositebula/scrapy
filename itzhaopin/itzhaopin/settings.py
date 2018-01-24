@@ -16,6 +16,7 @@ NEWSPIDER_MODULE = 'itzhaopin.spiders'
 
 ITEM_PIPELINES = {
     'itzhaopin.pipelines.JsonWithEncodingTencentPipeline': 300,
+    'itzhaopin.pipelines.JsonWithEncodingTencentDongPipeline': 301,
 }
 
 LOG_LEVEL = 'INFO'
